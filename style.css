@@ -85,3 +85,23 @@ form input.equal:hover{
 
 
 }
+@media screen and  (max-width: 1200px){
+    .calcolator form input{
+        height: 40px;
+        width: 40px;
+    }
+    form input.equal{
+        width: 110px;
+    }
+    .logo img{
+        width:220px;
+        height: 220px;
+        position: relative;
+        top: -60px;
+        left: 50px;}
+        form input.equal:hover{
+            width: 115px;
+            background: blueviolet;
+        }
+}
+
